@@ -5,6 +5,5 @@
     android:id="@+id/container1"
     android:layout_height="match_parent"
     tools:context=".screen.MainActivity">
-<!--    Finish-->
 
 </androidx.fragment.app.FragmentContainerView>
