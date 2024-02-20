@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".screen.MainScreen">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:title="Famous Persons"
+        android:titleTextColor="@color/white">
+
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/first_item"
+                layout="@layout/item_famous" />
+
+            <include
+                android:id="@+id/second_item"
+                layout="@layout/item_famous" />
+
+            <include
+                android:id="@+id/third_item"
+                layout="@layout/item_famous" />
+
+            <include
+                android:id="@+id/fourth_item"
+                layout="@layout/item_famous" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
